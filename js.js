@@ -21,16 +21,13 @@ function decrement()
     counter.innerText = p_count
     }
 }
-function reset()
-{
-    p_count = 0
-    counter.innerText = 0
-}
-function save()
+function save() 
 {
     
     s_count+=p_count+ ","
     savve.innerText = s_count
+    p_count = 0
+    counter.innerText = 0
 }
 
 
